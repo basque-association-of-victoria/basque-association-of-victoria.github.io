@@ -353,7 +353,7 @@ section {
 }
 
 #logo img {
-    max-height: 48px;
+    max-height: 64px;
     height: auto;
     vertical-align: middle;
     margin-right: 15px;
@@ -2341,6 +2341,7 @@ blockquote {
     }
 
 }
+
 
 
 

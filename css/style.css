@@ -332,7 +332,7 @@ section {
 #logo {
     float: left;
     height: 71px;
-    line-height: 66px;
+    line-height: 71px;
     margin-right: 15px;
 }
 
@@ -353,7 +353,8 @@ section {
 }
 
 #logo img {
-    max-height: 22px;
+    max-height: 48px;
+    height: auto;
     vertical-align: middle;
     margin-right: 15px;
 }
@@ -2076,6 +2077,20 @@ blockquote {
 /* Responsive Elements */
 /*------------------------------------------------------------------------------------------*/
 
+/* =Logo Resizing
+=====================*/
+
+/* Responsive: scale the logo down on small screens to avoid layout issues */
+@media (max-width: 600px) {
+    #logo img,
+    #banner #logo img {
+        max-height: 32px;
+    }
+    #banner #logo h1 {
+        font-size: 22px;
+    }
+}
+
 /* =Media Queries for Nav
 ===============================*/
 @media all and (max-width: 1024px) {
@@ -2326,6 +2341,7 @@ blockquote {
     }
 
 }
+
 
 
 
